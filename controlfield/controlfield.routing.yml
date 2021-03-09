@@ -1,0 +1,7 @@
+controlfield.custom_controller_getCustomData:
+  path: '/controlfield/custom-data'
+  defaults:
+    _controller: '\Drupal\controlfield\customcontroller\CustomController::getCustomData'
+    _title: 'Custom Data'
+  requirements:
+    _permission: 'access content'
